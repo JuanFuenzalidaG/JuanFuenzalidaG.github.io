@@ -1,55 +1,174 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Desafío</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5548de2fe0.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <title>Mi CV</title>
 </head>
-<body>
-    <h1 class="titulo">Curriculum Vitae</h1>
-    <h1>este no debe ser rojo</h1>
+<body class="bg-dark">
 
-    <img src="./assets/img/Capture.PNG" alt="JJ" width="100" height="150">
-    <h2>Juan Fuenzalida</h2>
+    <!--Navegador-->
+    <nav class="navbar navbar-expand-lg navbar-dark style-navbar">
+        <div class="container-fluid mx-4">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item mx-3">
+                <a class="nav-link active" aria-current="page" href="#About">About</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="#Proyects">Proyects</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="#Contacts">Contacts</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
-    <h3>Resumen</h3>
 
-    <p>
-        Ingeniero civil electrónico de 30 años que ha acumulado experiencia profesional trabajando en Chilquinta, una empresa destacada en el sector de energía en Chile. Con una sólida formación en ingeniería, ha demostrado sus habilidades y conocimientos en su campo. Actualmente, ha decidido aventurarse en una nueva etapa de su vida y se encuentra viviendo en Australia con una visa Work and Holiday. Esta visa le permite combinar el trabajo con la oportunidad de explorar y conocer mejor el país, mientras amplía sus horizontes profesionales y personales.
-    </p>
+    <!--presentacion-->
+    <div class="style-present container-fluid">
+        <div style="text-align: center; align-self: center;">
+            <h1><span style="color: bisque;">I'm</span><strong class="ms-3" style="color: rgb(208, 255, 37)">Juan Fuenzalida</strong></h1>
+            <h3><span style="color: bisque;"> Engineer and Web Developer Student</span></h4>
+                <div class="bg-dark style-rs pt-3">
+                    <a href="https://github.com/JuanFuenzalidaG" target="_blank"><i class="fa-brands fa-github fa-3x mx-3 icono"></i></a>
+                    <a href="https://www.linkedin.com/in/juan-jos%C3%A9-fuenzalida-gonz%C3%A1lez-692820159/" target="_blank"><i class="fa-brands fa-linkedin fa-3x mx-3 icono"></i></a>  
+                </div>
 
-    <h3>Datos Personales</h3>
+        </div>
+    </div>
+    
+    <!--About-->
+    <div id="About" class="style-present container-fluid"></div>
+        <div style="text-align: center; align-self: center;">
+            <p1><strong class="ms-3" style="color: rgb(208, 255, 37)">About</strong> <span style="color: bisque;">With a deep interest in the world of web 
+                development and the entire IT industry, my professional experience has allowed me to delve into the field of 
+                programming. Currently, I am a dedicated student of web programming, eager to expand my skills and knowledge 
+                to achieve new goals and excel wherever I can contribute with my work.</span></p1>
+            
 
-    <ul class="skills">
-        <li>Nombre: Juan José Fuenzalida González  </li>
-        <li>Lugar de nacimiento: Hualañe (región del Maule, Chile)</li>
-        <li>Fecha de nacimiento: 31/05/1994</li>
-
-    </ul>
-
-    <h3>Formación</h3>
-
-    <p>
-         Vivió su infancia en Vichuquén, un pintoresco lugar en Chile. Posteriormente, completó su educación media en Curicó. Luego, se trasladó a Valparaíso para realizar sus estudios universitarios en la Pontificia Universidad Católica de Valparaíso. En esta prestigiosa institución, se dedicó durante ocho años a estudiar Ingeniería Civil Electrónica, obteniendo una sólida formación académica que le ha permitido desarrollar su carrera profesional.
-    </p>
-
-    <h3>Grados Académicos</h3>
-
-    <ol>
-        <li>Técnico Nivel Medio en Electrónica</li>
-        <li>Ingeniero Civil Electronico</li>
-        <li>Licenciado Electrónico</li>
-    </ol>
-
-    <p>Facebook: 
-        <a href="https://www.facebook.com/juanjose.fuenzalida" target="_blank"> jjfuenzalida
-    </a>
-    </p>
-
-    <p>Portafolio: 
-        <a href="./portafolio.html" target="_blank"> Tabla
-    </a>
-    </p>
+        </div>
+    </div>
+    
+    <!--Skills-->
+    <div class=" mt-5  style-skills d-flex justify-content-center">  
+        <h2><span style="color: bisque;">My Skills</span></h2>   
+      </div>
+      <div class="p-3 d-flex justify-content-center container-fluid">
+        <div class="card style-card d-flex justify-content-center mx-3">
+          <img src="./assets/imgs/html-5-svgrepo-com.svg" class="card-img-top m-2" alt="html5">
+          <p class="card-text">Html</p>
+        </div>
+        <div class="card style-card d-flex justify-content-center mx-3">
+          <img src="./assets/imgs/css-3-svgrepo-com.svg" class="card-img-top m-2 " alt="css">
+          <p class="card-text">Css</p>
+        </div>
+        <div class="card style-card d-flex justify-content-center mx-3">
+          <img src="./assets/imgs/python-svgrepo-com.svg" class="card-img-top m-2" alt="python">
+          <p class="card-text">Python</p>
+        </div>
+      </div>
+      <div class="p-3 d-flex justify-content-center container-fluid">
+        <div class="card style-card d-flex justify-content-center mx-3">
+          <img src="./assets/imgs/git-svgrepo-com.svg" class="card-img-top m-2" alt="git">
+          <p class="card-text">Git</p>
+        </div>
+        <div class="card style-card d-flex justify-content-center mx-3">
+          <img src="./assets/imgs/linux-svgrepo-com.svg" class="card-img-top m-2" alt="git">
+          <p class="card-text">Linux</p>
+        </div>
+      </div>  
+      
+      <!--Portafolio-->
+    <div id="Projects">       
+        <h2 class=" mt-5 pt-5 text-center"><span style="color: bisque;">My Projects</span></h2> 
+        <div class="row justify-content-center p-3 mb-4">
+          <div id="carouselExample" class="carousel slide container-fluid style-portafolio">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="./assets/projects/desafio3/index.html" target="_blank"><img src="./assets/imgs/higuanas.jpg" class="d-block w-100 img-fluid rounded" alt="..."></a>
+              </div>
+              <div class="carousel-item">
+                <a href="./assets/projects/desafio4/index.html" target="_blank"><img src="./assets/imgs/cuppon.png" class="d-block w-100 img-fluid rounded" alt="..."></a>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>  
+      <!--Experience-->
+  
+      <div class="style-experience container-fluid mt-5 p-5 px-4">
+        <h2 class="d-flex justify-content-center mb-5 pt-3"><span style="color: bisque;">My experience</span></h2>
+        <div class="experience">
+          <img src="./assets/imgs/horizontal-svgrepo-com.svg" alt="viñeta" class="align-top style-vineta">
+          <div class="pt-2 mx-2">
+            <h4 style="color: bisque;">Hardware Engineer</h4>
+            <h5 style="color: bisque;"><em>Ksec Spa, Chile</em></h5>
+            <p style="color: bisque;">Planning and coordination of installation of devices. 
+              Participation in the development of new technologies. General administration tasks.</p>
+          </div>        
+        </div>
+        <div class="experience mt-4">
+          <img src="./assets/imgs/horizontal-svgrepo-com.svg" alt="viñeta" class="align-top style-viñeta">
+          <div class="pt-2 mx-2">
+            <h4s style="color: bisque;"">Electronic Engineer Apprentice</h4>
+            <h5s style="color: bisque;";"><em>Innervycs SpA</em></h5>
+            <p style="color: bisque;">
+              Active participation in machine learning and computer vision projects, utilizing machine learning 
+              tools and predictive model training.</p>
+          </div>
+          
+        </div>
+      </div>
+  
+      <!--Contacto-->
+      <div id="Contact" class="container-fluid my-5">
+        <h3 class="d-flex justify-content-center mt-3"><span style="color: bisque;">Contact</span></h3>
+        <div class="d-flex justify-content-center my-4">
+          <div class="p-3  style-border bg-opacity-10 rounded">
+            <pan style="color: bisque;">juan.j.fuenzalida@gmail.com</span>
+          </div>
+        </div>
+        <div class="p-3 d-flex justify-content-center">
+          <div class="card style-card-contact d-flex justify-content-center mx-3">
+            <a href="https://github.com/JuanFuenzalidaG" target="_blank" class="d-inline-block d-flex"><i class="card-img-top m-2 fa-brands fa-github fa-3x icono" alt="GitHub"></i></a>
+            <p class="card-text">GitHub</p>
+          </div>
+          <div class="card style-card-contact d-flex justify-content-center mx-3">
+            <a href="https://www.linkedin.com/in/juan-jos%C3%A9-fuenzalida-gonz%C3%A1lez-692820159/" target="_blank" class="d-inline-block d-flex"><i class="card-img-top m-2 fa-brands fa-linkedin fa-3x icono" alt="Linkedin"></i></a>
+            <p class="card-text">Linkedin</p>
+          </div>    
+        </div>
+      </div>
+  
+      <!--Footer-->
+      <footer class="text-center text-light p-4 style-footer container-fluid">
+        <p class="mb-0">Juan Fuenzalida 2024. Todos los derechos reservados.</p>
+      </footer>
+      
 </body>
 </html>

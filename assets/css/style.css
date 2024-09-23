@@ -1,24 +1,118 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body{
-    background-color: white;
-    color: black;
-}
-
-
-.titulo {
-    color: red;
-    font-size: 50px;
-    border: 20px solid black;
-    margin: 50px;
-    padding: 25px;
+body {
+    color: aliceblue;
+    font-family: 'Space Grotesk';
+    font-size: light;
     
 }
 
-.skills {
-    color: blue;
+.style-navbar{
+    background-color: rgb(24, 24, 24);
+}
+
+.style-navbar div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.style-present{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.style-about{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.icono {
+    color: aliceblue;
+}
+
+
+.style-about {    
+    text-align: center;
+    font-size: large;
+}
+
+.style-card {
+    background-color: rgb(24, 24, 24);
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+.style-card img{
+    height: 60px;
+    width: 60px;
+}
+
+.style-experience{    
+    background-color:rgb(13, 12, 12) ;
+    font-size: large;
+}
+
+.experience {
+    padding-inline: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.style-experience img{
+    height: 100px;
+    width: 50px;
+}
+
+.style-portafolio{
+    max-width: 600px; 
+    max-height: 400px;
+   
+}
+
+.style-vineta {
+    color: rgb(208, 255, 37);
+}
+
+.style-border {
+    width: 600px;
+    text-align: center;
+    background-color: rgb(24, 24, 24);
+    border: thin inset rgb(208, 255, 37);
+    
+}
+
+.style-card-contact {
+    background-color: rgb(24, 24, 24);
+    height: 120px;
+    width: 120px;
+    text-align: center;
+    align-items: center;
+    color: rgb(7, 7, 7);
+    border: thin inset rgb(208, 255, 37);
+}
+
+.style-card i{
+    max-height: 60px;
+    max-width: 60px;
+}
+
+.style-footer {
+    background-color: rgb(24, 24, 24);
+}
+
+a.d-inline-block {
+    align-items: center;
+    text-decoration: none;
 }
